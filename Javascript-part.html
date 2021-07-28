@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Javascript Part - 1</title>
+</head>
+<style>
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+
+font-family: arial;
+font-size: 18px;
+
+
+}
+.content{
+    height: 600px;
+    width : 800px;
+    margin: 0 auto;
+    background: #ccc;
+}
+.header , .footer{
+    background: yellow;
+    text-align: center;
+    padding: 10px 0px;
+}
+.maincontent{
+margin: 10px;
+padding: 5px 10px;
+background: #fff;
+min-height: 500px;
+position: relative;
+}
+.maincontent h3{
+text-align: center;
+padding: 5px 0px 10px ;
+}
+button{
+ padding: 10px;
+ background: yellow;
+ font-weight: bold;
+ font-family: 'Courier New', Courier, monospace;
+margin: 20% 50px;
+}
+</style>
+<body>
+    <section class="content">
+        <div class="header">
+            <h2>Simple Calculator</h2>
+            <p><Script>document.write('Date : '+Date())</Script></p>
+        </div>
+        <div class="maincontent">
+         <h3 >Result</h3>
+         <h3 id="yt" ></h3>
+
+
+         <button onclick=floatt() >Float Sum</button>
+
+         
+         <button onclick=minus() >Subtract</button>
+
+         <button onclick=mul() >Multiply</button>
+
+         <button onclick=div() >Divide</button>
+         
+<script>
+
+
+function floatt(){
+    var i = parseInt(prompt());
+var u = parseInt(prompt());
+var c = i+u;
+document.getElementById('yt').innerHTML =' Your Flaot Summation is : '+c;
+}
+
+function minus(){
+    var i = parseInt(prompt());
+var u = parseInt(prompt());
+var c = i-u;
+document.getElementById('yt').innerHTML ='Your Subtraction Is : '+c;
+
+}
+
+function mul(){
+    var i = parseInt(prompt());
+var u = parseInt(prompt());
+var c = i*u;
+document.getElementById('yt').innerHTML ='Your Multiplication Is  '+c;
+
+}
+function div(){
+    var i = parseInt(prompt());
+var u = parseInt(prompt());
+var c = i/u;
+document.getElementById('yt').innerHTML ='Your Divide Is '+c;
+
+}
+
+</script>
+
+
+        </div>
+        <div class="footer"><h2>Created By : Iftakharul Islam</h2></div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complete Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" class="logo" alt="logo">
+            <div class="header-txt">
+                <h1>The purpose is to <br> teach, Bring Learning to people.</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magnam commodi deserunt architecto eligendi ipsum accusantium quaerat nemo ad sequi!</p>
+                <button class="common-btn">Read More</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav id="SideNav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privancy Policy</a></li>
+            </ul>
+    
+        </nav>
+        <img src="images/menu.png" id="menubtn"  alt="">
+
+
+<!-----------About Section----->
+
+<section id="about">
+    <div class="about-left-col">
+        <img src="images/about.png" alt="">
+    </div>
+    <div class="about-right-col">
+        <div class="about-text">
+            <h1>About US</h1>
+            <br>
+            <span class="square"></span>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet veniam tenetur enim obcaecati eveniet rem blanditiis veritatis ratione. Nam possimus quidem, cum odit illum debitis sunt, minus sed, et nobis obcaecati. Laborum, at facere. Nihil officiis assumenda ut, debitis velit id sint sapiente dolor odit reprehenderit possimus dignissimos cum incidunt, modi eveniet nam animi vero laboriosam ipsa! Odio ducimus qui dolore ad cumque voluptatem voluptate vero ipsum,
+            </p>
+            <br>
+           
+            <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            <h2> "Learning is Not attained By Chance You Must Learn With passion. Give much effort you can get better result"</h2>
+            
+               <h3> --Iftakharul Islam.</h3>
+               <span class="line-3"></span>
+        </div>
+    </div>
+</section>
+
+<!------Features-->
+<section id="feature">
+<div class="feature-row">
+    <div class="feature-col">
+        <img src="images/pic-1.png" alt="">
+        <h4>Learn Anywhere</h4>
+        <p>Learn From Your Home Staying Your Home Will be the best choice if you're Having an Internet Connection.</p>
+    </div>
+    <div class="feature-col">
+            <img src="images/pic-2.png" alt="">
+            <h4>Expert Mentor  </h4>
+            <p>Learn From Your Home Staying Your Home Will be the best choice if you're Having an Internet Connection.</p>
+    </div>
+    <div class="feature-col">
+            <img src="images/pic-3.png" alt="">
+            <h4>Fully Modernised Lab</h4>
+            <p>Learn From Your Home Staying Your Home Will be the best choice if you're Having an Internet Connection.</p>
+    </div>
+</div>
+
+<div class="feature-btn">
+        <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+        <button class="common-btn">Start Free Trail</button>
+     </div>
+</section>
+
+<!----------Courses------->
+<div id="courses">
+    <div class="container course-row">
+        <div class="course-left-col">
+            <div class="course-text">
+                <h1>Browse Our <br>Courses</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptate exercitationem repellat ad natus pariatur quam consequatur deserunt quibusdam obcaecati? Dolore saepe similique a quia doloremque facilis reiciendis.s?</p>
+                <button class="common-btn">View All Courses</button>
+                <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+            </div>
+
+        </div>
+        <div class="course-right-col">
+            <img src="images/course.png" alt="">
+            
+            </div>
+    </div>
+</div>
+
+ <script>
+var  menubtn = document.getElementById("menubtn");
+var SideNav = document.getElementById("SideNav");
+SideNav.style.right = "-250px";
+menubtn.onclick = function(){
+    if(SideNav.style.right == "-250px"){
+        SideNav.style.right = "0px";
+    }
+    else{
+        SideNav.style.right = "-250px";
+    }
+}
+ </script>
+</body>
+</html>
