@@ -10,8 +10,7 @@
     background-size: cover;
 }
 .container {
-    margin-right: 100px;
-    margin-left: 100px;
+   margin : 0 100px;
 }
 .logo{
      margin-top: 30px;
@@ -110,6 +109,8 @@ nav ul li a{
 }
 .about-left-col{
     flex-basis: 50%;
+
+
 }
 .about-left-col img{
     width: 100%;
@@ -117,6 +118,7 @@ nav ul li a{
 .about-right-col{
     flex-basis: 50%;
     text-align: right;
+
 }
 .about-text{
     max-width: 500px;
@@ -184,16 +186,50 @@ nav ul li a{
 }
 .course-right-col{
 flex-basis: 50%;
+min-width:300px;
 }
 .course-right-col img{
 width: 100%;
 }
 .course-left-col{
     flex-basis: 50%;
+
 }
 .course-text{
     max-width: 350px;
 }
 .course-text button{
     margin: 30px 0;
+}
+@media(max-width:576px){
+	.container{
+margin:0 10px;
+}
+
+
+element.style {
+}
+.feature-col {
+    min-width: 300px;
+}
+#menubtn {
+    width: 40px;
+    position: fixed;
+    right: 12px;
+    top: 11px;
+}
+#about{
+flex-direction:column;
+}
+.course-row{
+flex-direction:column;
+}
+.about-text {
+padding:0 10px;
+    margin-right: 0;
+    
+}
+.about-text h2{
+font-size:18px;
+padding:0 10px;
 }
